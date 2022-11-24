@@ -569,11 +569,12 @@
 											"_parent": {
 												"$ref": "AAAAAAGEp4WHRaSnh24="
 											},
-											"visible": false,
 											"font": "Arial;13;0",
-											"left": 64,
-											"top": -240,
-											"height": 13
+											"left": 357,
+											"top": 213,
+											"width": 80.89453125,
+											"height": 13,
+											"text": "«interface»"
 										},
 										{
 											"_type": "LabelView",
@@ -581,9 +582,9 @@
 											"_parent": {
 												"$ref": "AAAAAAGEp4WHRaSnh24="
 											},
-											"font": "Arial;13;1",
+											"font": "Arial;13;3",
 											"left": 357,
-											"top": 215,
+											"top": 228,
 											"width": 80.89453125,
 											"height": 13,
 											"text": "IColaborador"
@@ -620,7 +621,7 @@
 									"left": 352,
 									"top": 208,
 									"width": 90.89453125,
-									"height": 25,
+									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAGEp4WHRaSoU/w="
 									},
@@ -645,7 +646,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 352,
-									"top": 233,
+									"top": 246,
 									"width": 90.89453125,
 									"height": 10
 								},
@@ -660,7 +661,7 @@
 									},
 									"font": "Arial;13;0",
 									"left": 352,
-									"top": 243,
+									"top": 256,
 									"width": 90.89453125,
 									"height": 10
 								},
@@ -702,7 +703,7 @@
 							"left": 352,
 							"top": 208,
 							"width": 90.89453125,
-							"height": 45,
+							"height": 58,
 							"nameCompartment": {
 								"$ref": "AAAAAAGEp4WHRaSnh24="
 							},
@@ -1281,7 +1282,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 330,
+									"left": 326,
 									"top": 167,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1302,7 +1303,7 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 338,
+									"left": 334,
 									"top": 154,
 									"height": 13,
 									"alpha": 1.5707963267948966,
@@ -1323,7 +1324,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 315,
+									"left": 309,
 									"top": 192,
 									"height": 13,
 									"alpha": -1.5707963267948966,
@@ -1342,7 +1343,7 @@
 								"$ref": "AAAAAAGEp4U9aaRSU0U="
 							},
 							"lineStyle": 1,
-							"points": "289:165;358:207",
+							"points": "286:165;351:207",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGEp4o5gaX9OxU="
@@ -1376,7 +1377,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 276,
-									"top": 216,
+									"top": 220,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1397,7 +1398,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 275,
-									"top": 201,
+									"top": 205,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -1418,7 +1419,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 277,
-									"top": 245,
+									"top": 249,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -1436,7 +1437,7 @@
 								"$ref": "AAAAAAGEp4VuGqR8HSE="
 							},
 							"lineStyle": 1,
-							"points": "203:242;351:233",
+							"points": "203:244;351:238",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAGEp4ppO6gTIuM="
@@ -1659,7 +1660,9 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "IColaborador"
+					"name": "IColaborador",
+					"stereotype": "interface",
+					"isAbstract": true
 				},
 				{
 					"_type": "UMLClass",
